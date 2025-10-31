@@ -1,6 +1,7 @@
 import { VoiceProvider } from "@humeai/voice-react";
 import StartCall from "./components/StartCall.jsx";
 import Messages from "./components/Messages.jsx";
+import VoiceMetrics from "./components/VoiceMetrics.jsx";
 
 export default function App() {
   return (
@@ -14,6 +15,7 @@ export default function App() {
       </p>
       <VoiceProvider>
         <StartCall />
+        <VoiceMetrics />
         <Messages />
       </VoiceProvider>
     </main>
